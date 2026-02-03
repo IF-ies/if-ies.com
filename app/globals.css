@@ -40,3 +40,33 @@ body {
 .text-glow {
   text-shadow: 0 0 20px rgba(127, 6, 249, 0.5);
 }
+
+.tag {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+}
+
+.glass-panel {
+  background: rgba(20, 20, 20, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.bento-card {
+  transition: all 0.3s ease;
+}
+
+.bento-card:hover {
+  border-color: rgba(127, 6, 249, 0.5);
+  transform: translateY(-2px);
+}
+
+.shadow-neon {
+  box-shadow: 0 0 20px rgba(127, 6, 249, 0.5);
+}
+
+.shadow-neon-hover:hover {
+  box-shadow: 0 0 30px rgba(127, 6, 249, 0.7);
+}

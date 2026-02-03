@@ -15,26 +15,26 @@ export default function Home() {
           <div className="hidden md:flex items-center gap-6">
             <a
               className="text-sm text-gray-400 hover:text-white transition-colors font-medium"
-              href="#work"
+              href="/work"
             >
               Work
             </a>
             <a
               className="text-sm text-gray-400 hover:text-white transition-colors font-medium"
-              href="#about"
+              href="/about"
             >
               About
             </a>
             <a
               className="text-sm text-gray-400 hover:text-white transition-colors font-medium"
-              href="#stack"
+              href="/stack"
             >
               Stack
             </a>
           </div>
           <a
             className="bg-white/10 hover:bg-white/20 text-white text-xs font-bold py-2 px-4 rounded-full transition-colors flex items-center gap-2"
-            href="mailto:contact@example.com"
+            href="/contact"
           >
             <span className="material-symbols-outlined text-[16px]">mail</span>
             <span>Contact</span>
