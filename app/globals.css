@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #7f06f9;
+  --color-background-dark: #050505;
+  --color-card-dark: #0f0f0f;
+
+  --font-display: var(--font-display);
+
+  /* Custom animations */
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+:root {
+  --background: #050505;
+  --foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-display);
+  overflow-x: hidden;
+}
+
+/* Custom Utilities */
+.glass-card {
+  background: rgba(20, 20, 20, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card:hover {
+  border-color: rgba(127, 6, 249, 0.4);
+  box-shadow: 0 0 30px -10px rgba(127, 6, 249, 0.15);
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(127, 6, 249, 0.5);
+}
