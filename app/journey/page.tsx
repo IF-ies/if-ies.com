@@ -9,8 +9,8 @@ export default function Journey() {
             <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 py-4">
                 <div className="glass-card !bg-black/40 rounded-full px-6 py-3 flex items-center justify-between gap-8 max-w-4xl w-full shadow-lg">
                     <a className="flex items-center gap-2 group" href="/">
-                        <div className="size-8 rounded-full bg-black/20 flex items-center justify-center overflow-hidden shadow-lg group-hover:scale-105 transition-transform">
-                            <img src="/logo.png" alt="Logo" className="w-full h-full object-cover" />
+                        <div className="size-8 flex items-center justify-center group-hover:scale-105 transition-transform">
+                            <img src="/logo.png" alt="Logo" className="w-full h-full object-contain drop-shadow-sm" />
                         </div>
                         <span className="font-bold text-sm tracking-wide group-hover:text-primary transition-colors">
                             İbrahim Furkan YILMAZ
