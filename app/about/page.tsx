@@ -72,6 +72,19 @@ export default function About() {
                                         Maker
                                     </span>
                                 </div>
+                                <div className="mt-6">
+                                    <a
+                                        href="/cv.pdf"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-black/40 border border-primary/30 text-white font-bold text-sm tracking-widest hover:bg-primary/10 hover:border-primary hover:shadow-[0_0_20px_rgba(127,6,249,0.3)] transition-all duration-300 group"
+                                    >
+                                        <span className="material-symbols-outlined text-lg text-primary group-hover:text-white transition-colors">
+                                            download
+                                        </span>
+                                        DOWNLOAD CV
+                                    </a>
+                                </div>
                             </div>
                             <div className="flex flex-col justify-center h-full space-y-4">
                                 <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">
