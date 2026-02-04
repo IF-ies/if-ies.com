@@ -14,7 +14,7 @@ export default function Contact() {
                                 <span className="font-bold text-lg">IF</span>
                             </a>
                             <h2 className="text-white text-base font-bold tracking-tight hidden sm:block">
-                                İbrahim Furkan Yılmaz
+                                İbrahim Furkan YILMAZ
                             </h2>
                         </div>
                         <nav className="hidden md:flex items-center gap-8">
@@ -243,7 +243,7 @@ export default function Contact() {
                     </div>
                 </main>
                 <footer className="text-center py-6 text-gray-600 text-sm">
-                    <p>© 2023 İbrahim Furkan Yılmaz. All rights reserved.</p>
+                    <p>© 2026 İbrahim Furkan YILMAZ. All rights reserved.</p>
                 </footer>
             </div>
         </>

@@ -13,7 +13,7 @@ export default function Stack() {
                             IY
                         </div>
                         <span className="font-bold text-sm tracking-wide group-hover:text-primary transition-colors">
-                            İbrahim Yılmaz
+                            İbrahim Furkan YILMAZ
                         </span>
                     </a>
                     <div className="hidden md:flex items-center gap-6">
@@ -282,7 +282,7 @@ export default function Stack() {
             </main>
 
             <footer className="py-8 text-center text-gray-600 text-sm relative z-10">
-                <p>© 2023 İbrahim Furkan Yılmaz. Crafted with precision.</p>
+                <p>© 2026 İbrahim Furkan YILMAZ. Crafted with precision.</p>
             </footer>
         </>
     );

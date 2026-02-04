@@ -188,8 +188,7 @@ export default function Home() {
               className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
               data-alt="High quality baby products arranged aesthetically"
               style={{
-                backgroundImage:
-                  "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBU7gxAXeITIu2viPbthVUo06vFRzyLy03Heh4XOcyDMAp4p0F9sHK-gGH_lhpZBPWLnLiOit6WHPiRwVyzqpviI8vN4F8OXvP_GeAAE2VQNIjVVKAkxZ5kMjzQtPJXzGPldJLN4rs9mvcTsSOxmu2IRWqlEnPctPnGGUwvSzgWC00h9u6libgQy8w6f7t-E8k0Uox75lKzxDNlyFfSKvba_5fkuk5RsYwclfoNLXviAcBX_fAIUmrFxnxhpZw4GKE1r5D-OYKiUlp-')",
+                backgroundImage: "url('/canim-bebem.png')",
               }}
             ></div>
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent opacity-90"></div>

@@ -13,7 +13,7 @@ export default function Work() {
                             IY
                         </div>
                         <span className="font-bold text-sm tracking-wide group-hover:text-primary transition-colors">
-                            İbrahim Yılmaz
+                            İbrahim Furkan YILMAZ
                         </span>
                     </a>
                     <div className="hidden md:flex items-center gap-8">
@@ -77,7 +77,7 @@ export default function Work() {
                             Hardware
                         </button>
                         <button className="px-4 py-2 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 text-gray-300 text-sm transition-colors">
-                            AI
+                            A
                         </button>
                     </div>
                 </div>
@@ -171,43 +171,7 @@ export default function Work() {
                         </div>
                     </div>
 
-                    {/* FPGA & Vivado */}
-                    <div className="glass-card rounded-[2rem] p-6 col-span-1 flex flex-col justify-between group relative overflow-hidden">
-                        <div className="absolute inset-0 bg-[#0a1f12] z-0 opacity-40"></div>
-                        <div
-                            className="absolute inset-0 opacity-10"
-                            style={{
-                                backgroundImage:
-                                    "radial-gradient(#22c55e 1px, transparent 1px)",
-                                backgroundSize: "16px 16px",
-                            }}
-                        ></div>
-                        <div className="relative z-10 flex justify-between items-start">
-                            <div className="size-10 rounded-lg bg-green-500/10 border border-green-500/20 flex items-center justify-center text-green-400">
-                                <span className="material-symbols-outlined">memory</span>
-                            </div>
-                            <span className="material-symbols-outlined text-gray-600 group-hover:text-white transition-colors">
-                                arrow_outward
-                            </span>
-                        </div>
-                        <div className="relative z-10 mt-4">
-                            <h3 className="text-lg font-bold text-white group-hover:text-green-400 transition-colors">
-                                FPGA &amp; Vivado
-                            </h3>
-                            <p className="text-xs text-gray-400 mt-1 mb-3">
-                                High-speed hardware logic design aimed at optimizing data
-                                processing throughput.
-                            </p>
-                            <div className="flex gap-2">
-                                <span className="tag px-2 py-0.5 rounded-md text-[10px] font-bold uppercase text-green-200">
-                                    Verilog
-                                </span>
-                                <span className="tag px-2 py-0.5 rounded-md text-[10px] font-bold uppercase text-green-200">
-                                    Xilinx
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+
 
                     {/* Digi Garden */}
                     <div className="glass-card rounded-[2rem] p-6 col-span-1 flex flex-col justify-between group relative overflow-hidden">
@@ -235,49 +199,7 @@ export default function Work() {
                         </div>
                     </div>
 
-                    {/* Nebula Dashboard */}
-                    <div className="glass-card rounded-[2rem] p-6 col-span-1 md:col-span-2 relative group overflow-hidden flex flex-col md:flex-row items-center gap-6">
-                        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/10 to-transparent z-0"></div>
-                        <div className="w-full md:w-1/2 h-40 md:h-full bg-gray-800/50 rounded-xl border border-white/5 relative overflow-hidden flex items-center justify-center group-hover:border-blue-500/30 transition-colors">
-                            <div className="w-[90%] h-[80%] bg-black/40 rounded-lg flex flex-col p-3 gap-2 backdrop-blur-sm">
-                                <div className="flex gap-2">
-                                    <div className="w-1/3 h-20 bg-blue-500/20 rounded animate-pulse"></div>
-                                    <div className="w-2/3 h-20 bg-gray-700/30 rounded"></div>
-                                </div>
-                                <div className="w-full h-12 bg-gray-700/30 rounded flex items-center px-3 gap-2">
-                                    <div className="w-2 h-2 rounded-full bg-green-500"></div>
-                                    <div className="w-20 h-2 bg-gray-600/50 rounded"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex-1 space-y-3 relative z-10 w-full">
-                            <div className="flex gap-2">
-                                <span className="tag px-2 py-1 rounded-md text-[10px] font-bold uppercase text-blue-300">
-                                    SaaS
-                                </span>
-                                <span className="tag px-2 py-1 rounded-md text-[10px] font-bold uppercase text-blue-300">
-                                    Analytics
-                                </span>
-                            </div>
-                            <h3 className="text-2xl font-bold text-white">
-                                Nebula Dashboard
-                            </h3>
-                            <p className="text-sm text-gray-400">
-                                A comprehensive analytics dashboard for SaaS companies,
-                                featuring real-time data visualization and user behavior
-                                tracking.
-                            </p>
-                            <a
-                                className="inline-flex items-center gap-2 text-sm font-bold text-primary hover:text-white transition-colors mt-2"
-                                href="#"
-                            >
-                                View Case Study{" "}
-                                <span className="material-symbols-outlined text-sm">
-                                    arrow_forward
-                                </span>
-                            </a>
-                        </div>
-                    </div>
+
 
                     {/* SecureChain */}
                     <div className="glass-card rounded-[2rem] p-6 col-span-1 flex flex-col justify-between group relative overflow-hidden">
@@ -301,46 +223,11 @@ export default function Work() {
                         </div>
                     </div>
 
-                    {/* HomeCore */}
-                    <div className="glass-card rounded-[2rem] p-6 col-span-1 flex flex-col justify-between group relative overflow-hidden">
-                        <div className="absolute -left-8 -top-8 w-32 h-32 bg-orange-600/10 rounded-full blur-3xl"></div>
-                        <div className="relative z-10 flex justify-between items-start">
-                            <div className="size-10 rounded-lg bg-orange-900/20 border border-orange-500/30 flex items-center justify-center text-orange-400">
-                                <span className="material-symbols-outlined">
-                                    home_iot_device
-                                </span>
-                            </div>
-                            <span className="material-symbols-outlined text-gray-600 group-hover:text-white transition-colors">
-                                arrow_outward
-                            </span>
-                        </div>
-                        <div className="relative z-10 mt-auto pt-6">
-                            <span className="tag px-2 py-0.5 rounded-md text-[10px] font-bold uppercase text-orange-200 mb-2 inline-block">
-                                IoT
-                            </span>
-                            <h3 className="text-lg font-bold text-white">HomeCore</h3>
-                            <p className="text-xs text-gray-400 mt-1">
-                                Centralized smart home controller.
-                            </p>
-                        </div>
-                    </div>
+
                 </div>
             </main>
-            <footer className="py-8 text-center text-gray-600 text-sm border-t border-white/5 mt-10 w-full max-w-[1200px] mx-auto">
-                <div className="flex flex-col md:flex-row justify-between items-center px-8 gap-4">
-                    <p>© 2023 İbrahim Furkan Yılmaz.</p>
-                    <div className="flex gap-6">
-                        <a className="hover:text-white transition-colors" href="#">
-                            LinkedIn
-                        </a>
-                        <a className="hover:text-white transition-colors" href="#">
-                            GitHub
-                        </a>
-                        <a className="hover:text-white transition-colors" href="#">
-                            Twitter
-                        </a>
-                    </div>
-                </div>
+            <footer className="py-8 text-center text-gray-600 text-sm">
+                <p>© 2026 İbrahim Furkan YILMAZ. Crafted with precision.</p>
             </footer>
         </>
     );

@@ -13,7 +13,7 @@ export default function Journey() {
                             IY
                         </div>
                         <span className="font-bold text-sm tracking-wide group-hover:text-primary transition-colors">
-                            İbrahim Yılmaz
+                            İbrahim Furkan YILMAZ
                         </span>
                     </a>
                     <div className="hidden md:flex items-center gap-6">
@@ -197,8 +197,7 @@ export default function Journey() {
                         <div
                             className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                             style={{
-                                backgroundImage:
-                                    "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAedsEc1Shf4V8quRBwcYqXCAREcx4CFJMldjCJk5AAFYpG393QcJgGTXvWu0VgLekmr896KzHS2ZS_Jyf5fAh4cL-KOM_j7NRE6V0S5zUdhNSOLKQarcJUCfDRYfHvVYv8cLHUDTkdHQuf7vrkbn3yMxalR0hlsdH2Y23LBX36UO8WM_rUEGPGD3ptzGEWd4xsxsyigy16Ue6KQx28cNbyGCn-riKpVwQE8H8zRdJ8XFeLB0E9xaHBkZNzg7svvI2py75H0pbWNCIk')",
+                                backgroundImage: "url('/milestone.png')",
                             }}
                         ></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
@@ -228,7 +227,7 @@ export default function Journey() {
                 </div>
             </main>
             <footer className="py-8 text-center text-gray-600 text-sm border-t border-white/5 mt-auto w-full">
-                <p>© 2023 İbrahim Furkan Yılmaz. Crafted with precision.</p>
+                <p>© 2026 İbrahim Furkan YILMAZ. Crafted with precision.</p>
             </footer>
         </>
     );
