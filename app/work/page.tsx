@@ -10,7 +10,7 @@ export default function Work() {
                 <div className="glass-card !bg-black/60 !backdrop-blur-xl rounded-full px-6 py-3 flex items-center justify-between gap-8 max-w-4xl w-full shadow-2xl border-white/10">
                     <a className="flex items-center gap-2 group" href="/">
                         <div className="size-8 rounded-full bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center text-white font-bold text-xs shadow-lg group-hover:scale-105 transition-transform">
-                            IY
+                            IFY
                         </div>
                         <span className="font-bold text-sm tracking-wide group-hover:text-primary transition-colors">
                             İbrahim Furkan YILMAZ
@@ -67,18 +67,6 @@ export default function Work() {
                         </p>
                     </div>
                     <div className="flex flex-wrap gap-2">
-                        <button className="px-4 py-2 rounded-xl bg-white text-black font-bold text-sm hover:bg-gray-200 transition-colors">
-                            All
-                        </button>
-                        <button className="px-4 py-2 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 text-gray-300 text-sm transition-colors">
-                            Software
-                        </button>
-                        <button className="px-4 py-2 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 text-gray-300 text-sm transition-colors">
-                            Hardware
-                        </button>
-                        <button className="px-4 py-2 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 text-gray-300 text-sm transition-colors">
-                            A
-                        </button>
                     </div>
                 </div>
 
@@ -88,8 +76,7 @@ export default function Work() {
                         <div
                             className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                             style={{
-                                backgroundImage:
-                                    "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBU7gxAXeITIu2viPbthVUo06vFRzyLy03Heh4XOcyDMAp4p0F9sHK-gGH_lhpZBPWLnLiOit6WHPiRwVyzqpviI8vN4F8OXvP_GeAAE2VQNIjVVKAkxZ5kMjzQtPJXzGPldJLN4rs9mvcTsSOxmu2IRWqlEnPctPnGGUwvSzgWC00h9u6libgQy8w6f7t-E8k0Uox75lKzxDNlyFfSKvba_5fkuk5RsYwclfoNLXviAcBX_fAIUmrFxnxhpZw4GKE1r5D-OYKiUlp-')",
+                                backgroundImage: "url('/canim-bebem.png')",
                             }}
                         ></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-90"></div>
@@ -108,7 +95,7 @@ export default function Work() {
                                         Canım Bebem
                                     </h2>
                                     <p className="text-gray-300 text-base md:text-lg max-w-md line-clamp-2 md:line-clamp-none">
-                                        Turkey's premier baby product marketplace featuring a
+                                        Türkiye's premier baby product marketplace featuring a
                                         custom-built inventory management system and seamless payment
                                         gateway integration.
                                     </p>

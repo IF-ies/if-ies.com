@@ -10,7 +10,7 @@ export default function About() {
                 <div className="glass-card !bg-black/40 rounded-full px-6 py-3 flex items-center justify-between gap-8 max-w-4xl w-full shadow-lg">
                     <a className="flex items-center gap-2 group" href="/">
                         <div className="size-8 rounded-full bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center text-white font-bold text-xs">
-                            IY
+                            IFY
                         </div>
                         <span className="font-bold text-sm tracking-wide group-hover:text-primary transition-colors">
                             İbrahim Furkan YILMAZ
@@ -112,7 +112,13 @@ export default function About() {
                         </div>
                     </div>
                     <div className="glass-card rounded-[2rem] p-8 col-span-1 md:col-span-2 row-span-1 flex flex-col justify-center relative overflow-hidden group min-h-[240px]">
-                        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 to-primary/10 opacity-50"></div>
+                        <div
+                            className="absolute inset-0 bg-cover bg-center opacity-40 mix-blend-overlay group-hover:scale-105 transition-transform duration-700"
+                            style={{
+                                backgroundImage: "url('/agu-aerial.jpg')",
+                            }}
+                        ></div>
+                        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-primary/80 opacity-90"></div>
                         <div className="absolute -right-10 -bottom-10 w-40 h-40 bg-blue-500/10 rounded-full blur-3xl"></div>
                         <div className="absolute top-10 right-10 opacity-10">
                             <span className="material-symbols-outlined text-9xl">school</span>
@@ -144,6 +150,51 @@ export default function About() {
                                     <p className="text-sm text-gray-400 mb-1">Focus Areas</p>
                                     <p className="font-medium text-white text-sm">
                                         Hardware Acceleration, FPGA, Software Architecture
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="glass-card rounded-[2rem] p-8 col-span-1 md:col-span-2 row-span-1 flex flex-col justify-center relative overflow-hidden group min-h-[240px]">
+                        <div
+                            className="absolute inset-0 bg-cover bg-center opacity-40 mix-blend-overlay group-hover:scale-105 transition-transform duration-700"
+                            style={{
+                                backgroundImage: "url('/agu-aerial.jpg')",
+                            }}
+                        ></div>
+                        <div className="absolute inset-0 bg-gradient-to-r from-purple-900/80 to-pink-900/80 opacity-90"></div>
+                        <div className="absolute -right-10 -bottom-10 w-40 h-40 bg-purple-500/10 rounded-full blur-3xl"></div>
+                        <div className="absolute top-10 right-10 opacity-10">
+                            <span className="material-symbols-outlined text-9xl">school</span>
+                        </div>
+                        <div className="relative z-10 flex flex-col h-full justify-between">
+                            <div className="flex items-center gap-4 mb-4">
+                                <div className="size-12 rounded-xl bg-white/10 backdrop-blur-md border border-white/10 flex items-center justify-center">
+                                    <span className="material-symbols-outlined text-purple-400">
+                                        history_edu
+                                    </span>
+                                </div>
+                                <div>
+                                    <p className="text-xs text-purple-400 font-bold uppercase tracking-widest">
+                                        University
+                                    </p>
+                                    <h3 className="text-xl font-bold text-white">
+                                        Anadolu University
+                                    </h3>
+                                </div>
+                            </div>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
+                                <div>
+                                    <p className="text-sm text-gray-400 mb-1">Faculty</p>
+                                    <p className="font-medium text-white">
+                                        Open Education Faculty
+                                    </p>
+                                </div>
+                                <div>
+                                    <p className="text-sm text-gray-400 mb-1">Focus Areas</p>
+                                    <p className="font-medium text-white text-sm">
+                                        Web Design &amp; Coding, Lifelong Learning
                                     </p>
                                 </div>
                             </div>

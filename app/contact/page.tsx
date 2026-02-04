@@ -11,7 +11,7 @@ export default function Contact() {
                     <div className="w-full max-w-[1280px] glass-panel rounded-xl px-6 py-4 flex items-center justify-between">
                         <div className="flex items-center gap-3">
                             <a href="/" className="size-8 bg-primary rounded-lg flex items-center justify-center text-white">
-                                <span className="font-bold text-lg">IF</span>
+                                <span className="font-bold text-lg">IFY</span>
                             </a>
                             <h2 className="text-white text-base font-bold tracking-tight hidden sm:block">
                                 İbrahim Furkan YILMAZ

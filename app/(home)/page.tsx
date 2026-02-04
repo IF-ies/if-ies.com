@@ -6,7 +6,7 @@ export default function Home() {
         <div className="glass-card !bg-black/40 rounded-full px-6 py-3 flex items-center justify-between gap-8 max-w-4xl w-full shadow-lg">
           <a className="flex items-center gap-2 group" href="#">
             <div className="size-8 rounded-full bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center text-white font-bold text-xs">
-              IY
+              IFY
             </div>
             <span className="font-bold text-sm tracking-wide group-hover:text-primary transition-colors">
               İbrahim Furkan YILMAZ
@@ -62,12 +62,11 @@ export default function Home() {
                 <h1 className="text-4xl md:text-5xl font-extrabold leading-[1.1] tracking-tight">
                   Building Digital &amp; <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">
-                    Physical Products
+                    E-Commerce
                   </span>
                 </h1>
                 <p className="text-gray-400 text-lg max-w-md leading-relaxed">
-                  Computer Engineer &amp; Entrepreneur based in Turkey. Merging
-                  hardware precision with software scalability.
+                  A Computer Engineer Student &amp; Entrepreneur based in Türkiye. Building scalable solutions from code to commerce.
                 </p>
               </div>
             </div>
@@ -91,47 +90,7 @@ export default function Home() {
           </div>
 
           {/* Location / Status Tile (Span 1x1) */}
-          <a
-            href="https://www.google.com/maps/search/Abdullah+Gül+University,+Kayseri"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="glass-card rounded-[2rem] p-6 col-span-1 flex flex-col justify-between relative overflow-hidden group min-h-[240px]"
-          >
-            <div
-              className="w-full h-full absolute inset-0 opacity-40 group-hover:opacity-60 transition-opacity duration-500"
-              data-alt="Minimalist dark map of Turkey location"
-              data-location="Turkey"
-              style={{
-                backgroundImage:
-                  "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCc8yNqC4qiRtfAlF-l6pJbq49X7zjdGdpMB2BrtCRi2AOZWoMJ_gN1MdmXTIqtLx9z2q7VHc2xbCM5bzNFWSpDu2Le6Uv_Dof5vXL9KhQFoYKbzWFts8QWoSuYlp8HV8JyCDpRlU5QHSLaU457Ul8n6XgY6yz_5aZNjz2nFdM_Hwv48Bjtp_zDfUUla4C1ZBmVoz_RtvLtWj44jw4LCcQgwRD9NAgoqzo7DnoU2O2TLAKciIku7FY4UMYjQ_Tayo3Kc-Kpf0Fi2tt2')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            ></div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
-            <div className="relative z-10 flex justify-end">
-              <div className="size-10 rounded-full bg-black/50 backdrop-blur-md flex items-center justify-center border border-white/10">
-                <span className="material-symbols-outlined text-white">
-                  public
-                </span>
-              </div>
-            </div>
-            <div className="relative z-10">
-              <p className="text-xs text-gray-400 uppercase tracking-wider font-bold mb-1">
-                Based In
-              </p>
-              <p className="text-xl font-bold text-white">Turkey</p>
-              <div className="flex items-center gap-2 mt-2">
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-                </span>
-                <span className="text-xs text-green-400 font-medium">
-                  Available for work
-                </span>
-              </div>
-            </div>
-          </a>
+
 
           {/* Social Stack (Span 1x1) */}
           <div className="col-span-1 grid grid-rows-2 gap-4">
