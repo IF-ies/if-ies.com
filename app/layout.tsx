@@ -11,9 +11,6 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "İbrahim Furkan Yılmaz | Portfolio",
   description: "Computer Engineer & Entrepreneur based in Turkey. Building Digital & Physical Products.",
-  icons: {
-    icon: '/logo.png',
-  },
 };
 
 export default function RootLayout({
