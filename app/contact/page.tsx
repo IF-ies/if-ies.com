@@ -10,12 +10,12 @@ export default function Contact() {
         e.preventDefault();
 
         if (form.current) {
-            emailjs.sendForm('service_dgkk5q8', 'template_hkgstwc', form.current, 'LhqtBGOS25NlF9S5n')
+            emailjs.sendForm('service_dgkk5q8', 'template_kctznzm', form.current, 'LhqtBGOS25NlF9S5n')
                 .then((result) => {
                     alert("Mesajın başarıyla gönderildi!");
                 }, (error) => {
                     console.error("EmailJS Error:", error);
-                    alert("Bir hata oluştu: " + JSON.stringify(error));
+                    alert("Bir hata oluştu, tekrar dene.");
                 });
         }
     };
