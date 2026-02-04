@@ -87,3 +87,32 @@ body {
 .shadow-neon-hover:hover {
   box-shadow: 0 0 30px rgba(127, 6, 249, 0.7);
 }
+
+/* Contact Page Specific */
+.input-field {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 100%;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #7f06f9;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 0 2px rgba(127, 6, 249, 0.2);
+}
+
+.neon-btn {
+  background: #7f06f9;
+  box-shadow: 0 0 15px rgba(127, 6, 249, 0.4);
+  transition: all 0.3s ease;
+}
+
+.neon-btn:hover {
+  box-shadow: 0 0 25px rgba(127, 6, 249, 0.6);
+  transform: translateY(-1px);
+}
