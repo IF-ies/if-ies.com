@@ -9,8 +9,8 @@ export default function About() {
             <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 py-4">
                 <div className="glass-card !bg-black/40 rounded-full px-6 py-3 flex items-center justify-between gap-8 max-w-4xl w-full shadow-lg">
                     <a className="flex items-center gap-2 group" href="/">
-                        <div className="size-8 rounded-full bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center text-white font-bold text-xs">
-                            IFY
+                        <div className="size-8 rounded-full bg-black/20 flex items-center justify-center overflow-hidden shadow-lg group-hover:scale-105 transition-transform">
+                            <img src="/logo.png" alt="Logo" className="w-full h-full object-cover" />
                         </div>
                         <span className="font-bold text-sm tracking-wide group-hover:text-primary transition-colors">
                             İbrahim Furkan YILMAZ
@@ -71,6 +71,9 @@ export default function About() {
                                     <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider font-bold text-gray-400">
                                         Maker
                                     </span>
+                                    <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider font-bold text-gray-400">
+                                        Student
+                                    </span>
                                 </div>
                                 <div className="mt-6">
                                     <a
@@ -124,7 +127,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="glass-card rounded-[2rem] p-8 col-span-1 md:col-span-2 row-span-1 flex flex-col justify-center relative overflow-hidden group min-h-[240px]">
+                    <div className="glass-card rounded-[2rem] p-6 col-span-1 md:col-span-2 row-span-1 flex flex-col justify-center relative overflow-hidden group">
                         <div
                             className="absolute inset-0 bg-cover bg-center opacity-40 mix-blend-overlay group-hover:scale-105 transition-transform duration-700"
                             style={{
@@ -145,18 +148,18 @@ export default function About() {
                                 </div>
                                 <div>
                                     <p className="text-xs text-blue-400 font-bold uppercase tracking-widest">
-                                        Alma Mater
+                                        University
                                     </p>
-                                    <h3 className="text-xl font-bold text-white">
-                                        Abdullah Gül University
+                                    <h3 className="text-xl font-bold text-white flex items-center gap-2">
+                                        Abdullah Gül University <span className="text-sm font-normal text-gray-300 ml-1">2022 - Continued</span>
                                     </h3>
                                 </div>
                             </div>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
                                 <div>
-                                    <p className="text-sm text-gray-400 mb-1">Degree</p>
+                                    <p className="text-sm text-gray-400 mb-1">Faculty</p>
                                     <p className="font-medium text-white">
-                                        B.Sc. Computer Engineering
+                                        Formal Education Computer Engineering
                                     </p>
                                 </div>
                                 <div>
@@ -169,7 +172,7 @@ export default function About() {
                         </div>
                     </div>
 
-                    <div className="glass-card rounded-[2rem] p-8 col-span-1 md:col-span-2 row-span-1 flex flex-col justify-center relative overflow-hidden group min-h-[240px]">
+                    <div className="glass-card rounded-[2rem] p-6 col-span-1 md:col-span-2 row-span-1 flex flex-col justify-center relative overflow-hidden group">
                         <div
                             className="absolute inset-0 bg-cover bg-center opacity-40 mix-blend-overlay group-hover:scale-105 transition-transform duration-700"
                             style={{
@@ -192,8 +195,8 @@ export default function About() {
                                     <p className="text-xs text-purple-400 font-bold uppercase tracking-widest">
                                         University
                                     </p>
-                                    <h3 className="text-xl font-bold text-white">
-                                        Anadolu University
+                                    <h3 className="text-xl font-bold text-white flex items-center gap-2">
+                                        Anadolu University <span className="text-sm font-normal text-gray-300 ml-1">2024 - Continued</span>
                                     </h3>
                                 </div>
                             </div>
@@ -201,13 +204,13 @@ export default function About() {
                                 <div>
                                     <p className="text-sm text-gray-400 mb-1">Faculty</p>
                                     <p className="font-medium text-white">
-                                        Open Education Faculty
+                                        Open Education Faculty Business Administration
                                     </p>
                                 </div>
                                 <div>
                                     <p className="text-sm text-gray-400 mb-1">Focus Areas</p>
                                     <p className="font-medium text-white text-sm">
-                                        Web Design &amp; Coding, Lifelong Learning
+                                        Business, Commerce, E-commerce, Accounting
                                     </p>
                                 </div>
                             </div>

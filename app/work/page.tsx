@@ -9,8 +9,8 @@ export default function Work() {
             <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 py-4">
                 <div className="glass-card !bg-black/60 !backdrop-blur-xl rounded-full px-6 py-3 flex items-center justify-between gap-8 max-w-4xl w-full shadow-2xl border-white/10">
                     <a className="flex items-center gap-2 group" href="/">
-                        <div className="size-8 rounded-full bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center text-white font-bold text-xs shadow-lg group-hover:scale-105 transition-transform">
-                            IFY
+                        <div className="size-8 rounded-full bg-black/20 flex items-center justify-center overflow-hidden shadow-lg group-hover:scale-105 transition-transform">
+                            <img src="/logo.png" alt="Logo" className="w-full h-full object-cover" />
                         </div>
                         <span className="font-bold text-sm tracking-wide group-hover:text-primary transition-colors">
                             İbrahim Furkan YILMAZ
@@ -62,8 +62,7 @@ export default function Work() {
                             </span>
                         </h1>
                         <p className="text-gray-400 text-lg max-w-xl leading-relaxed">
-                            A curated collection of digital products, hardware engineering,
-                            and mobile experiences crafted with precision and passion.
+                            A curated collection of scalable software, digital systems, and mobile experiences crafted with precision and passion.
                         </p>
                     </div>
                     <div className="flex flex-wrap gap-2">
@@ -176,7 +175,7 @@ export default function Work() {
                                 Digi Garden
                             </h3>
                             <p className="text-xs text-gray-400 mt-1">
-                                AI data collector on plant azot monıtorıng system
+                                AI data collector on plant nitrogen monitoring system
                             </p>
                         </div>
                     </div>

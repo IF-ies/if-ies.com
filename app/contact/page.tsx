@@ -6,10 +6,11 @@ export default function Contact() {
     const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_dgkk5q8', 'template_hkgstwc', e.currentTarget, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('service_dgkk5q8', 'template_hkgstwc', e.currentTarget, 'LhqtBGOS25NlF9S5n')
             .then((result) => {
                 alert("Mesajın başarıyla gönderildi!");
             }, (error) => {
+                console.error("EmailJS Error:", error);
                 alert("Bir hata oluştu, tekrar dene.");
             });
     };
@@ -24,8 +25,8 @@ export default function Contact() {
             <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 py-4">
                 <div className="glass-card !bg-black/60 !backdrop-blur-xl rounded-full px-6 py-3 flex items-center justify-between gap-8 max-w-4xl w-full shadow-2xl border-white/10">
                     <a className="flex items-center gap-2 group" href="/">
-                        <div className="size-8 rounded-full bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center text-white font-bold text-xs shadow-lg group-hover:scale-105 transition-transform">
-                            IFY
+                        <div className="size-8 rounded-full bg-black/20 flex items-center justify-center overflow-hidden shadow-lg group-hover:scale-105 transition-transform">
+                            <img src="/logo.png" alt="Logo" className="w-full h-full object-cover" />
                         </div>
                         <span className="font-bold text-sm tracking-wide group-hover:text-primary transition-colors">
                             İbrahim Furkan YILMAZ
