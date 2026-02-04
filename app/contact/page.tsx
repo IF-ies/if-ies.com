@@ -1,18 +1,23 @@
 "use client";
 
 import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
 
 export default function Contact() {
+    const form = useRef<HTMLFormElement>(null);
+
     const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_dgkk5q8', 'template_hkgstwc', e.currentTarget, 'LhqtBGOS25NlF9S5n')
-            .then((result) => {
-                alert("Mesajın başarıyla gönderildi!");
-            }, (error) => {
-                console.error("EmailJS Error:", error);
-                alert("Bir hata oluştu, tekrar dene.");
-            });
+        if (form.current) {
+            emailjs.sendForm('service_dgkk5q8', 'template_hkgstwc', form.current, 'LhqtBGOS25NlF9S5n')
+                .then((result) => {
+                    alert("Mesajın başarıyla gönderildi!");
+                }, (error) => {
+                    console.error("EmailJS Error:", error);
+                    alert("Bir hata oluştu: " + JSON.stringify(error));
+                });
+        }
     };
 
     return (
@@ -91,7 +96,7 @@ export default function Contact() {
                             </span>
                             Send a Message
                         </h2>
-                        <form className="space-y-6" onSubmit={sendEmail}>
+                        <form className="space-y-6" ref={form} onSubmit={sendEmail}>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label className="text-sm font-semibold text-gray-400 ml-1">
