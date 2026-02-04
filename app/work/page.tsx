@@ -88,36 +88,32 @@ export default function Work() {
                                 Web Platform
                             </span>
                         </div>
-                        <div className="absolute bottom-0 left-0 w-full p-8 md:p-10 z-20">
+                        <a href="https://www.canimbebem.com" target="_blank" rel="noopener noreferrer" className="absolute bottom-0 left-0 w-full p-8 md:p-10 z-20">
                             <div className="flex justify-between items-end">
                                 <div className="space-y-3">
-                                    <h2 className="text-3xl md:text-4xl font-bold text-white group-hover:text-primary transition-colors duration-300">
+                                    <h2 className="text-3xl md:text-4xl font-bold text-white group-hover:text-purple-500 transition-colors duration-300">
                                         Canım Bebem
                                     </h2>
                                     <p className="text-gray-300 text-base md:text-lg max-w-md line-clamp-2 md:line-clamp-none">
-                                        Türkiye's premier baby product marketplace featuring a
-                                        custom-built inventory management system and seamless payment
-                                        gateway integration.
+                                        Managing a multi-channel baby products business, focused on reliable supply and customer satisfaction across Turkey's leading marketplaces.
                                     </p>
                                     <div className="flex flex-wrap gap-2 pt-2">
-                                        <span className="text-xs font-mono text-gray-400">
-                                            #React
-                                        </span>
-                                        <span className="text-xs font-mono text-gray-400">
-                                            #NodeJS
-                                        </span>
-                                        <span className="text-xs font-mono text-gray-400">
-                                            #MongoDB
-                                        </span>
+                                        <span className="text-xs font-mono text-gray-400">#wix</span>
+                                        <span className="text-xs font-mono text-gray-400">#trendyol</span>
+                                        <span className="text-xs font-mono text-gray-400">#amazon</span>
+                                        <span className="text-xs font-mono text-gray-400">#hepsiburada</span>
+                                        <span className="text-xs font-mono text-gray-400">#n11</span>
+                                        <span className="text-xs font-mono text-gray-400">#pazarama</span>
+                                        <span className="text-xs font-mono text-gray-400">#idefix</span>
                                     </div>
                                 </div>
-                                <div className="size-14 rounded-full bg-white text-black flex items-center justify-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-xl cursor-pointer hover:bg-primary hover:text-white">
+                                <div className="size-14 rounded-full bg-white text-black flex items-center justify-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-xl cursor-pointer hover:bg-purple-500 hover:text-white">
                                     <span className="material-symbols-outlined text-2xl">
                                         arrow_outward
                                     </span>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     {/* LexiFlow */}
@@ -143,17 +139,16 @@ export default function Work() {
                         </div>
                         <div className="relative z-10 mt-6">
                             <div className="flex gap-2 mb-2">
-                                <span className="tag px-2 py-0.5 rounded-md text-[10px] font-bold uppercase text-indigo-300">
-                                    iOS
+                                <span className="tag px-2 py-0.5 rounded-md text-[10px] font-bold uppercase text-green-300">
+                                    Android
                                 </span>
-                                <span className="tag px-2 py-0.5 rounded-md text-[10px] font-bold uppercase text-purple-300">
-                                    SwiftUI
+                                <span className="tag px-2 py-0.5 rounded-md text-[10px] font-bold uppercase text-blue-300">
+                                    Flutter
                                 </span>
                             </div>
                             <h3 className="text-xl font-bold text-white mb-1">LexiFlow</h3>
                             <p className="text-sm text-gray-400 line-clamp-2">
-                                An intuitive reading assistant app designed to help users
-                                improve focus and retention.
+                                Word based mobile game with unique alpahabetic order design
                             </p>
                         </div>
                     </div>
@@ -181,7 +176,7 @@ export default function Work() {
                                 Digi Garden
                             </h3>
                             <p className="text-xs text-gray-400 mt-1">
-                                AI-powered plant monitoring system.
+                                AI data collector on plant azot monıtorıng system
                             </p>
                         </div>
                     </div>
@@ -203,9 +198,9 @@ export default function Work() {
                             <span className="tag px-2 py-0.5 rounded-md text-[10px] font-bold uppercase text-red-200 mb-2 inline-block">
                                 Cybersecurity
                             </span>
-                            <h3 className="text-lg font-bold text-white">SecureChain</h3>
+                            <h3 className="text-lg font-bold text-white">RSA Secure Email</h3>
                             <p className="text-xs text-gray-400 mt-1">
-                                Blockchain-based identity verification.
+                                End-to-end encrypted email application using RSA algorithms.
                             </p>
                         </div>
                     </div>

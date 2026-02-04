@@ -1,6 +1,19 @@
 "use client";
 
+import emailjs from '@emailjs/browser';
+
 export default function Contact() {
+    const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_dgkk5q8', 'template_hkgstwc', e.currentTarget, 'YOUR_PUBLIC_KEY')
+            .then((result) => {
+                alert("Mesajın başarıyla gönderildi!");
+            }, (error) => {
+                alert("Bir hata oluştu, tekrar dene.");
+            });
+    };
+
     return (
         <>
             <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
@@ -77,7 +90,7 @@ export default function Contact() {
                             </span>
                             Send a Message
                         </h2>
-                        <form action="#" className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+                        <form className="space-y-6" onSubmit={sendEmail}>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label className="text-sm font-semibold text-gray-400 ml-1">
@@ -87,6 +100,7 @@ export default function Contact() {
                                         className="input-field"
                                         placeholder="John Doe"
                                         type="text"
+                                        name="user_name"
                                     />
                                 </div>
                                 <div className="space-y-2">
@@ -97,6 +111,7 @@ export default function Contact() {
                                         className="input-field"
                                         placeholder="john@example.com"
                                         type="email"
+                                        name="user_email"
                                     />
                                 </div>
                             </div>
@@ -108,6 +123,7 @@ export default function Contact() {
                                     className="input-field resize-none"
                                     placeholder="Tell me about your project..."
                                     rows={6}
+                                    name="message"
                                 ></textarea>
                             </div>
                             <button
@@ -154,9 +170,22 @@ export default function Contact() {
                             </a>
                             <a
                                 className="flex items-center justify-between p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors group/link"
-                                href="#"
+                                href="https://x.com/i_furkan_yilmaz"
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >
-                                <span className="text-sm font-medium">Twitter</span>
+                                <span className="text-sm font-medium">Twitter (X)</span>
+                                <span className="material-symbols-outlined text-sm text-gray-600 group-hover/link:text-white transition-colors">
+                                    arrow_outward
+                                </span>
+                            </a>
+                            <a
+                                className="flex items-center justify-between p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors group/link"
+                                href="https://www.instagram.com/i_furkanyilmaz/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <span className="text-sm font-medium">Instagram</span>
                                 <span className="material-symbols-outlined text-sm text-gray-600 group-hover/link:text-white transition-colors">
                                     arrow_outward
                                 </span>
@@ -194,72 +223,12 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    <div className="glass-card rounded-[2rem] p-6 col-span-1 md:col-span-1 flex flex-col justify-between group relative overflow-hidden">
-                        <div className="absolute -right-8 -bottom-8 w-32 h-32 bg-purple-600/10 rounded-full blur-3xl"></div>
-                        <div className="relative z-10 flex justify-between items-start">
-                            <div className="size-10 rounded-lg bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400">
-                                <span className="material-symbols-outlined">
-                                    contact_support
-                                </span>
-                            </div>
-                            <div className="flex -space-x-2">
-                                <div className="size-6 rounded-full border-2 border-[#050505] bg-gray-800 flex items-center justify-center text-[10px] font-bold">
-                                    IFY
-                                </div>
-                            </div>
-                        </div>
-                        <div className="relative z-10 mt-6">
-                            <h3 className="text-lg font-bold text-white">Ask me about it</h3>
-                            <p className="text-sm text-gray-400 mt-2 mb-4">
-                                Interested in AI, FPGA design, or startup scaling? I'm always
-                                down to chat about tech.
-                            </p>
-                            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-xs text-gray-400 italic">
-                                <span className="w-2 h-2 rounded-full bg-green-500"></span>
-                                Typically replies in 24h
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </main>
 
-            <footer className="py-12 text-center text-gray-600 text-sm border-t border-white/5 mt-10 w-full max-w-[1200px] mx-auto">
-                <div className="flex flex-col md:flex-row justify-between items-center px-8 gap-6">
-                    <div className="flex flex-col items-start gap-2">
-                        <p className="font-bold text-white">İbrahim Furkan Yılmaz</p>
-                        <p>© 2026. All rights reserved.</p>
-                    </div>
-                    <div className="flex gap-8">
-                        <a
-                            className="hover:text-primary transition-colors flex items-center gap-2"
-                            href="/cv.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <span className="material-symbols-outlined text-[18px]">
-                                article
-                            </span>
-                            Resume
-                        </a>
-                        <a
-                            className="hover:text-primary transition-colors flex items-center gap-2"
-                            href="#"
-                        >
-                            <span className="material-symbols-outlined text-[18px]">
-                                verified_user
-                            </span>
-                            Legal
-                        </a>
-                    </div>
-                    <div className="flex gap-4">
-                        <div className="size-10 rounded-xl bg-white/5 flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer border border-white/5">
-                            <span className="material-symbols-outlined">code</span>
-                        </div>
-                        <div className="size-10 rounded-xl bg-white/5 flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer border border-white/5">
-                            <span className="material-symbols-outlined">terminal</span>
-                        </div>
-                    </div>
-                </div>
+            <footer className="py-8 text-center text-gray-600 text-sm">
+                <p>© 2026 İbrahim Furkan YILMAZ. Crafted with precision.</p>
             </footer>
         </>
     );
