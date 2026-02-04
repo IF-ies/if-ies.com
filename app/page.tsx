@@ -9,7 +9,7 @@ export default function Home() {
               IY
             </div>
             <span className="font-bold text-sm tracking-wide group-hover:text-primary transition-colors">
-              İbrahim Yılmaz
+              İbrahim Furkan YILMAZ
             </span>
           </a>
           <div className="hidden md:flex items-center gap-6">
@@ -54,8 +54,7 @@ export default function Home() {
                   className="w-full h-full bg-cover bg-center"
                   data-alt="Professional portrait of Ibrahim Furkan Yılmaz"
                   style={{
-                    backgroundImage:
-                      "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAedsEc1Shf4V8quRBwcYqXCAREcx4CFJMldjCJk5AAFYpG393QcJgGTXvWu0VgLekmr896KzHS2ZS_Jyf5fAh4cL-KOM_j7NRE6V0S5zUdhNSOLKQarcJUCfDRYfHvVYv8cLHUDTkdHQuf7vrkbn3yMxalR0hlsdH2Y23LBX36UO8WM_rUEGPGD3ptzGEWd4xsxsyigy16Ue6KQx28cNbyGCn-riKpVwQE8H8zRdJ8XFeLB0E9xaHBkZNzg7svvI2py75H0pbWNCIk')",
+                    backgroundImage: "url('/profile.jpg')",
                   }}
                 ></div>
               </div>
@@ -73,20 +72,31 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-wrap gap-3 mt-8 relative z-10">
-              <button className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-xl font-bold transition-all hover:scale-[1.02] shadow-[0_0_20px_rgba(127,6,249,0.3)]">
+              <a
+                href="/work"
+                className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-xl font-bold transition-all hover:scale-[1.02] shadow-[0_0_20px_rgba(127,6,249,0.3)]"
+              >
                 <span>My Projects</span>
                 <span className="material-symbols-outlined text-sm">
                   arrow_forward
                 </span>
-              </button>
-              <button className="flex items-center gap-2 bg-[#1a1a1a] border border-white/10 hover:bg-white/5 text-white px-6 py-3 rounded-xl font-medium transition-all">
+              </a>
+              <a
+                href="/contact"
+                className="flex items-center gap-2 bg-[#1a1a1a] border border-white/10 hover:bg-white/5 text-white px-6 py-3 rounded-xl font-medium transition-all"
+              >
                 <span>Contact Me</span>
-              </button>
+              </a>
             </div>
           </div>
 
           {/* Location / Status Tile (Span 1x1) */}
-          <div className="glass-card rounded-[2rem] p-6 col-span-1 flex flex-col justify-between relative overflow-hidden group min-h-[240px]">
+          <a
+            href="https://www.google.com/maps/search/Abdullah+Gül+University,+Kayseri"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass-card rounded-[2rem] p-6 col-span-1 flex flex-col justify-between relative overflow-hidden group min-h-[240px]"
+          >
             <div
               className="w-full h-full absolute inset-0 opacity-40 group-hover:opacity-60 transition-opacity duration-500"
               data-alt="Minimalist dark map of Turkey location"
@@ -121,13 +131,15 @@ export default function Home() {
                 </span>
               </div>
             </div>
-          </div>
+          </a>
 
           {/* Social Stack (Span 1x1) */}
           <div className="col-span-1 grid grid-rows-2 gap-4">
             <a
               className="glass-card rounded-[1.5rem] p-4 flex items-center justify-between group hover:bg-[#1a1a1a] transition-all"
-              href="#"
+              href="https://www.linkedin.com/in/ibrahim-furkan-yilmaz-7645a8209/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="flex items-center gap-4">
                 <div className="size-10 rounded-full bg-[#0077b5] flex items-center justify-center text-white">
@@ -144,7 +156,9 @@ export default function Home() {
             </a>
             <a
               className="glass-card rounded-[1.5rem] p-4 flex items-center justify-between group hover:bg-[#1a1a1a] transition-all"
-              href="#"
+              href="https://github.com/IF-ies"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="flex items-center gap-4">
                 <div className="size-10 rounded-full bg-[#24292e] flex items-center justify-center text-white border border-white/10">
@@ -164,7 +178,12 @@ export default function Home() {
           </div>
 
           {/* Project 1: Canım Bebem (Span 2x1) */}
-          <div className="glass-card rounded-[2rem] p-0 col-span-1 md:col-span-2 relative group overflow-hidden min-h-[300px]">
+          <a
+            href="https://www.canimbebem.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass-card rounded-[2rem] p-0 col-span-1 md:col-span-2 relative group overflow-hidden min-h-[300px]"
+          >
             <div
               className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
               data-alt="High quality baby products arranged aesthetically"
@@ -195,7 +214,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </a>
 
           {/* Project 2: LexiFlow (Span 1x1) */}
           <div className="glass-card rounded-[2rem] p-6 col-span-1 md:col-span-1 flex flex-col justify-between group min-h-[300px]">
@@ -299,7 +318,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-8 text-center text-gray-600 text-sm">
-        <p>© 2023 İbrahim Furkan Yılmaz. Crafted with precision.</p>
+        <p>© 2026 İbrahim Furkan Yılmaz. Crafted with precision.</p>
       </footer>
     </>
   );
