@@ -61,17 +61,17 @@ export default function About() {
                                         }}
                                     ></div>
                                 </div>
-                                <div className="mt-6 flex flex-wrap gap-2 justify-center md:justify-start">
-                                    <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider font-bold text-gray-400">
+                                <div className="mt-6 grid grid-cols-2 gap-2 w-fit mx-auto md:mx-0">
+                                    <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider font-bold text-gray-400 text-center">
                                         Engineer
                                     </span>
-                                    <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider font-bold text-gray-400">
+                                    <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider font-bold text-gray-400 text-center">
                                         Founder
                                     </span>
-                                    <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider font-bold text-gray-400">
+                                    <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider font-bold text-gray-400 text-center">
                                         Maker
                                     </span>
-                                    <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider font-bold text-gray-400">
+                                    <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider font-bold text-gray-400 text-center">
                                         Student
                                     </span>
                                 </div>
@@ -127,7 +127,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="glass-card rounded-[2rem] p-6 col-span-1 md:col-span-2 row-span-1 flex flex-col justify-center relative overflow-hidden group">
+                    <div className="glass-card rounded-[2rem] p-4 col-span-1 md:col-span-2 row-span-1 flex flex-col justify-center relative overflow-hidden group">
                         <div
                             className="absolute inset-0 bg-cover bg-center opacity-40 mix-blend-overlay group-hover:scale-105 transition-transform duration-700"
                             style={{
@@ -139,40 +139,40 @@ export default function About() {
                         <div className="absolute top-10 right-10 opacity-10">
                             <span className="material-symbols-outlined text-9xl">school</span>
                         </div>
-                        <div className="relative z-10 flex flex-col h-full justify-between">
-                            <div className="flex items-center gap-4 mb-4">
-                                <div className="size-12 rounded-xl bg-white/10 backdrop-blur-md border border-white/10 flex items-center justify-center">
-                                    <span className="material-symbols-outlined text-blue-400">
+                        <div className="relative z-10 flex flex-col h-full justify-center">
+                            <div className="flex items-center gap-3 mb-2">
+                                <div className="size-10 rounded-xl bg-white/10 backdrop-blur-md border border-white/10 flex items-center justify-center">
+                                    <span className="material-symbols-outlined text-blue-400 text-xl">
                                         history_edu
                                     </span>
                                 </div>
                                 <div>
-                                    <p className="text-xs text-blue-400 font-bold uppercase tracking-widest">
+                                    <p className="text-[10px] text-blue-400 font-bold uppercase tracking-widest leading-none mb-0.5">
                                         University
                                     </p>
-                                    <h3 className="text-xl font-bold text-white flex items-center gap-2">
-                                        Abdullah Gül University <span className="text-sm font-normal text-gray-300 ml-1">2022 - Continued</span>
+                                    <h3 className="text-lg font-bold text-white flex items-center gap-2 leading-none">
+                                        Abdullah Gül University <span className="text-xs font-normal text-gray-300 ml-1">2022 - Continued</span>
                                     </h3>
                                 </div>
                             </div>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1">
                                 <div>
-                                    <p className="text-sm text-gray-400 mb-1">Faculty</p>
-                                    <p className="font-medium text-white">
+                                    <p className="text-xs text-gray-400 mb-0.5">Faculty</p>
+                                    <p className="font-medium text-white text-sm">
                                         Formal Education Computer Engineering
                                     </p>
                                 </div>
                                 <div>
-                                    <p className="text-sm text-gray-400 mb-1">Focus Areas</p>
-                                    <p className="font-medium text-white text-sm">
-                                        Hardware Acceleration, FPGA, Software Architecture
+                                    <p className="text-xs text-gray-400 mb-0.5">Focus Areas</p>
+                                    <p className="font-medium text-white text-xs">
+                                        Software Architecture, Mobile programming, Technology, Web
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="glass-card rounded-[2rem] p-6 col-span-1 md:col-span-2 row-span-1 flex flex-col justify-center relative overflow-hidden group">
+                    <div className="glass-card rounded-[2rem] p-4 col-span-1 md:col-span-2 row-span-1 flex flex-col justify-center relative overflow-hidden group">
                         <div
                             className="absolute inset-0 bg-cover bg-center opacity-40 mix-blend-overlay group-hover:scale-105 transition-transform duration-700"
                             style={{
@@ -184,99 +184,40 @@ export default function About() {
                         <div className="absolute top-10 right-10 opacity-10">
                             <span className="material-symbols-outlined text-9xl">school</span>
                         </div>
-                        <div className="relative z-10 flex flex-col h-full justify-between">
-                            <div className="flex items-center gap-4 mb-4">
-                                <div className="size-12 rounded-xl bg-white/10 backdrop-blur-md border border-white/10 flex items-center justify-center">
-                                    <span className="material-symbols-outlined text-purple-400">
+                        <div className="relative z-10 flex flex-col h-full justify-center">
+                            <div className="flex items-center gap-3 mb-2">
+                                <div className="size-10 rounded-xl bg-white/10 backdrop-blur-md border border-white/10 flex items-center justify-center">
+                                    <span className="material-symbols-outlined text-purple-400 text-xl">
                                         history_edu
                                     </span>
                                 </div>
                                 <div>
-                                    <p className="text-xs text-purple-400 font-bold uppercase tracking-widest">
+                                    <p className="text-[10px] text-purple-400 font-bold uppercase tracking-widest leading-none mb-0.5">
                                         University
                                     </p>
-                                    <h3 className="text-xl font-bold text-white flex items-center gap-2">
-                                        Anadolu University <span className="text-sm font-normal text-gray-300 ml-1">2024 - Continued</span>
+                                    <h3 className="text-lg font-bold text-white flex items-center gap-2 leading-none">
+                                        Anadolu University <span className="text-xs font-normal text-gray-300 ml-1">2024 - Continued</span>
                                     </h3>
                                 </div>
                             </div>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1">
                                 <div>
-                                    <p className="text-sm text-gray-400 mb-1">Faculty</p>
-                                    <p className="font-medium text-white">
+                                    <p className="text-xs text-gray-400 mb-0.5">Faculty</p>
+                                    <p className="font-medium text-white text-sm">
                                         Open Education Faculty Business Administration
                                     </p>
                                 </div>
                                 <div>
-                                    <p className="text-sm text-gray-400 mb-1">Focus Areas</p>
-                                    <p className="font-medium text-white text-sm">
+                                    <p className="text-xs text-gray-400 mb-0.5">Focus Areas</p>
+                                    <p className="font-medium text-white text-xs">
                                         Business, Commerce, E-commerce, Accounting
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="glass-card rounded-[2rem] p-6 col-span-1 row-span-1 flex flex-col justify-between group min-h-[260px] relative overflow-hidden">
-                        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5"></div>
-                        <div className="relative z-10">
-                            <div className="size-12 rounded-full bg-[#1a1a1a] border border-primary/30 flex items-center justify-center mb-6 shadow-[0_0_15px_rgba(127,6,249,0.2)]">
-                                <span className="material-symbols-outlined text-primary">
-                                    rocket_launch
-                                </span>
-                            </div>
-                            <h3 className="text-lg font-bold text-white mb-2">
-                                The Entrepreneurial Spirit
-                            </h3>
-                            <p className="text-xs text-gray-400 leading-relaxed">
-                                Building isn't just about the tech; it's about the vision. I
-                                thrive in the chaos of zero-to-one, turning abstract concepts
-                                into viable products.
-                            </p>
-                        </div>
-                        <div className="relative z-10 mt-4 pt-4 border-t border-white/5">
-                            <div className="flex items-center justify-between">
-                                <span className="text-xs font-bold text-white">Ventures</span>
-                                <span className="text-xs text-gray-400">3 Launched</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="glass-card rounded-[2rem] p-6 col-span-1 row-span-1 flex flex-col justify-between group min-h-[260px] relative overflow-hidden bg-[#0a0a0a]">
-                        <div
-                            className="absolute inset-0 opacity-20"
-                            style={{
-                                backgroundImage:
-                                    "linear-gradient(#333 1px, transparent 1px), linear-gradient(90deg, #333 1px, transparent 1px)",
-                                backgroundSize: "20px 20px",
-                            }}
-                        ></div>
-                        <div className="relative z-10 flex justify-between items-start">
-                            <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-green-500/10 border border-green-500/20">
-                                <span className="relative flex h-2 w-2">
-                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-                                </span>
-                                <span className="text-[10px] font-bold text-green-400 uppercase tracking-wider">
-                                    Active
-                                </span>
-                            </div>
-                        </div>
-                        <div className="relative z-10 mt-2">
-                            <p className="text-xs text-gray-500 font-bold uppercase tracking-wider mb-2">
-                                Currently
-                            </p>
-                            <h3 className="text-2xl font-bold text-white mb-1">
-                                Building New Ventures
-                            </h3>
-                            <p className="text-sm text-gray-400">
-                                Exploring AI agents &amp; SaaS solutions.
-                            </p>
-                        </div>
-                        <div className="relative z-10 mt-4">
-                            <button className="w-full py-2 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-bold text-white transition-colors">
-                                Ask me about it
-                            </button>
-                        </div>
-                    </div>
+
+
                 </div>
             </main>
             <footer className="py-8 text-center text-gray-600 text-sm">

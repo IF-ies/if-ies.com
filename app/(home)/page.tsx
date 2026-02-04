@@ -203,74 +203,9 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Project 3: FPGA & Vivado (Span 1x1) */}
-          <div className="glass-card rounded-[2rem] p-6 col-span-1 md:col-span-1 flex flex-col justify-between group min-h-[300px] relative overflow-hidden">
-            <div className="absolute inset-0 bg-black/40 z-0"></div>
-            <div className="absolute -right-10 -top-10 w-40 h-40 bg-green-500/10 rounded-full blur-3xl group-hover:bg-green-500/20 transition-colors"></div>
-            <div className="relative z-10 flex justify-between items-start">
-              <div className="size-12 rounded-xl bg-[#0f1f15] border border-green-500/30 flex items-center justify-center">
-                <span className="material-symbols-outlined text-green-400">
-                  memory
-                </span>
-              </div>
-              <span className="material-symbols-outlined text-gray-500 group-hover:text-white transition-colors">
-                arrow_outward
-              </span>
-            </div>
-            <div className="relative z-10 flex-1 flex items-center justify-center my-4">
-              {/* Abstract Circuit Visualization */}
-              <svg
-                className="w-24 h-24 text-green-500/50 group-hover:text-green-400 transition-colors duration-500"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1"
-                viewBox="0 0 24 24"
-              >
-                <path d="M4 4h6v6h-6z M14 4h6v6h-6z M4 14h6v6h-6z M14 14h6v6h-6z"></path>
-                <path d="M7 10v4 M17 10v4 M10 7h4 M10 17h4"></path>
-              </svg>
-            </div>
-            <div className="relative z-10">
-              <h3 className="text-xl font-bold text-white">FPGA &amp; Vivado</h3>
-              <p className="text-sm text-gray-400">Hardware Engineering</p>
-            </div>
-          </div>
 
-          {/* Project 4: Digi Garden (Span 1x1 - Last item desktop) */}
-          <div className="glass-card rounded-[2rem] p-6 col-span-1 md:col-span-1 lg:col-span-1 hidden md:flex flex-col justify-between group min-h-[300px] relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-b from-[#1a1a1a] to-black z-0"></div>
-            {/* Decorative grid */}
-            <div
-              className="absolute inset-0 z-0 opacity-10"
-              style={{
-                backgroundImage:
-                  "radial-gradient(#4b5563 1px, transparent 1px)",
-                backgroundSize: "20px 20px",
-              }}
-            ></div>
-            <div className="relative z-10 flex justify-between items-start">
-              <div className="size-12 rounded-xl bg-[#1e1b2e] border border-purple-500/30 flex items-center justify-center">
-                <span className="material-symbols-outlined text-purple-400">
-                  potted_plant
-                </span>
-              </div>
-              <span className="material-symbols-outlined text-gray-500 group-hover:text-white transition-colors">
-                arrow_outward
-              </span>
-            </div>
-            <div className="relative z-10 flex-1 flex items-center justify-center">
-              <div className="relative">
-                <span className="material-symbols-outlined text-6xl text-purple-500/40 group-hover:text-purple-400 transition-colors duration-500">
-                  local_florist
-                </span>
-                <div className="absolute top-0 right-0 w-3 h-3 bg-purple-400 rounded-full animate-pulse shadow-[0_0_10px_rgba(192,132,252,0.8)]"></div>
-              </div>
-            </div>
-            <div className="relative z-10">
-              <h3 className="text-xl font-bold text-white">Digi Garden</h3>
-              <p className="text-sm text-gray-400">AI &amp; Growth Data</p>
-            </div>
-          </div>
+
+
         </div>
       </main>
 
